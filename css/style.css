@@ -1,0 +1,30 @@
+.ui {
+    position: fixed;
+    top: 0%; 
+    width: 100%;
+    height: 100%;
+}
+.ui .splash .bg{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+.ui .splash .header{
+    width: 100%;  
+}
+
+.ui .addJelly {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    /* width: 100%;
+    height: 100%; */
+    width: 50%;
+    -ms-transform: translate(-50%,0);
+    -webkit-transform: translate(-50%,0);
+    transform: translate(-50%,0);
+
+}
