@@ -10,6 +10,7 @@ $( document ).ready(function() {
         let jelly = scene.querySelector('#jelly');
         let anim = document.createElement('a-animation');
         let animJ = $('a-animation');
+        jelly.setAttribute("visible",true);
         anim.setAttribute('attribute',"position");
         anim.setAttribute('dur',"1500");
         anim.setAttribute('to','2 0.80 -1.85');
