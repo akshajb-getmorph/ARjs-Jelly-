@@ -1,7 +1,8 @@
 $( document ).ready(function() {
     
     $('.splash').click(function(){
-        $(this).fadeOut(500);
+        $('.ui').fadeOut(500);
+        // $('.ui').attr("z-index","-2")
         var scene = document.querySelector('a-scene');
         let cake = scene.querySelector('#cake');
         cake.setAttribute("visible",true);
