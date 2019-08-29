@@ -20,6 +20,6 @@ $( document ).ready(function() {
         // anim.setAttribute('to','2 0.80 -1.85');
         // anim.setAttribute('easing','linear');
         // jelly.appendChild(anim);
-        console.log(jelly);
+        // console.log(jelly);
     });
 });
